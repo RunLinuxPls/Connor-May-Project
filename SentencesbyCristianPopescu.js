@@ -1,4 +1,4 @@
-{
+export const SeventySentences = {
   "title": "70 Sentences by Christian Popescu",
   "author": "Connor A. May",
   "body":[
