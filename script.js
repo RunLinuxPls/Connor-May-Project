@@ -8,6 +8,4 @@ for (const each of poem) {
 }
 document.querySelectorAll("#appWrapper div").forEach(element => {
 element.className = "sentenceCard"
-element.style.display = none;
-
 })
