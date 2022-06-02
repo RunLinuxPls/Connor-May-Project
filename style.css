@@ -1,3 +1,29 @@
 body {
-  background-color: black;
+    background-color: antiquewhite;
+    display: grid;
+    place-content: center;
+}
+#appWrapper {
+    width: min(95vw, 60ch);
+}
+.sentenceCard {
+    background-color: beige;
+    border: .2em solid burlywood;
+    border-radius: 1em;
+    display: grid;
+    height: 5em;
+    padding: 3em;
+    place-content: center;
+    font: normal 1.5em serif;
+    white-space: pre-line;
+    width: auto;
+}
+#buttonWrapper {
+    display: flex;
+    place-content: center;
+}
+button {
+    font: normal 2em monospace;
+    background: linear-gradient(beige, antiquewhite);
+    margin: 1em;
 }
