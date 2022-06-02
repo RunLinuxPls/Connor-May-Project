@@ -10,7 +10,7 @@ body {
     background-color: beige;
     border: .2em solid burlywood;
     border-radius: 1em;
-    display: grid;
+    display: none;
     height: 5em;
     padding: 3em;
     place-content: center;
