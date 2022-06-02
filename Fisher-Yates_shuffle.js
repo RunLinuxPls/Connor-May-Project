@@ -1,4 +1,4 @@
-function shuffleArray(array) {
+export function shuffleArray(array) {
   let curId = array.length;
   // There remain elements to shuffle
   while (0 !== curId) {
@@ -12,7 +12,3 @@ function shuffleArray(array) {
   }
   return array;
 }
-// Usage of shuffle
-let arr = [1, 2, 3, 4, 5];
-arr = shuffleArray(arr);
-console.log(arr);
