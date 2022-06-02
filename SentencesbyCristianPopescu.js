@@ -31,7 +31,7 @@ export const SeventySentences = {
     "Whatever you think, the contrast is too violent.",
     "Like me or other people, he goes through a series of moods, struggling between ideal, theoretical and real and vulgar love.",
     "This would be a clay model doll that, by magic, is resurrected and used as a boy, as a girl in the house.",
-    "On his forehead is written the Hebrew word emeth (\"truth\"). wipe the first letter from your forehead, the golem turns back to clay because meth (without e) means \"death.\"",
+    "On his forehead is written the Hebrew word emeth (\"truth\"). Wipe the first letter from your forehead, the golem turns back to clay because meth (without e) means \"death.\"",
     "There was only one beautiful and sad country where most people were sentenced to life in prison.",
     "There was a kind of shabby paradise in which trees grew claws and chicken necks, and especially pig's feet and heads.",
     "But the women of that place were tempted by men to taste them.",
@@ -42,7 +42,7 @@ export const SeventySentences = {
     "I mean, a brothel.",
     "The muse is a babysitter in the corner.",
     "And once his dreams come to him, his own dreams, they stare at him, shout and hit him one on the back.",
-    "Your naughty mother !!!\nHe then buys a lot of old icons on wood, from which, being nailed, the coffins of the statues of the great poets will be made.",
+    "Your naughty mother !!!\r\n\r\nHe then buys a lot of old icons on wood, from which, being nailed, the coffins of the statues of the great poets will be made.",
     "Eventually, the manufacture of an electric train, led by the national poet, was completed.",
     "Of course I was tired of her sagging breasts, hanging on her chest, her heavy, crusty breasts in the night.",
     "\"WHAT IS ART?\" that's what I'm going to cut them with scissors. I'll put a hat on my left.",
@@ -67,5 +67,6 @@ export const SeventySentences = {
     "The poem is a grave to be desecrated on the inside.",
     "He had planted some chrysanthemums in the garden, he had arranged them, so that they spelled, letter by letter, his name: P-O-P-E-S-C-U.",
     "He came to Popescu's garden every night, took a ray of sunshine, a candle, folded it well, thinned it between his fingers, twisted it, untied it, and filled it with a park.",
-    "So they say."]
+    "So they say."
+  ]
 }
