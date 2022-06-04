@@ -1,29 +1,69 @@
-body {
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+body
+{
     background-color: antiquewhite;
+}
+
+#appWrapper
+{
     display: grid;
-    place-content: center;
+    place-items: center;
+    width: 100vw;
 }
-#appWrapper {
-    width: min(95vw, 60ch);
+
+h1
+{
+    font-size: max(4vh, 4vw);
+    justify-self: center;
+    margin: 2vh;
+    text-align: center;
 }
-.sentenceCard {
+
+#cardWrapper
+{
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+.sentenceCard
+{
     background-color: beige;
     border: .2em solid burlywood;
     border-radius: 1em;
     display: grid;
-    height: 5em;
-    padding: 3em;
-    place-content: center;
-    font: normal 1.5em serif;
-    white-space: pre-line;
-    width: auto;
+    margin: 0% 50% .5em;
+    min-height: max(60vh, 35vw);
+    padding: 0% max(7vw, 5vh);
+    place-items: center;
+    font: normal max(3vw, 3.75vh) serif;
+    min-width: 65vw;
+    max-width: 90%;
 }
-#buttonWrapper {
+
+h2
+{
+    font: normal max(2vw, 3vh) serif;
+    position: relative;
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+#buttonWrapper
+{
     display: flex;
-    place-content: center;
+    flex-direction: row;
 }
-button {
-    font: normal 2em monospace;
+
+button
+{
+    font: normal max(3.5vh, 2.5vw) monospace;
     background: linear-gradient(beige, antiquewhite);
-    margin: 1em;
+    margin: 0 1em;
+    padding: 1%;
 }
