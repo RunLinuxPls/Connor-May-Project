@@ -13,7 +13,7 @@ body
 {
     display: grid;
     place-items: center;
-    width: 100vw;
+    width: 100%;
 }
 
 h1
@@ -37,13 +37,14 @@ h1
     border: .2em solid burlywood;
     border-radius: 1em;
     display: grid;
-    margin: 0% 50% .5em;
+    margin: 0% 5% .5em;
     min-height: max(60vh, 35vw);
+    max-height: 80vh;
     padding: 0% max(7vw, 5vh);
     place-items: center;
-    font: normal max(3vw, 3.75vh) serif;
-    min-width: 65vw;
-    max-width: 90%;
+    font: normal max(3vw, 3vh) serif;
+    min-width: 80vw;
+    max-width: 80vw;
 }
 
 h2
