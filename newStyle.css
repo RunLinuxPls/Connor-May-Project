@@ -8,7 +8,18 @@ h1
 
     font-family: 'Rubik Mono One', sans-serif;
 }
+
+h2
+{
+    font-family: 'Share Tech Mono', monospace;
+}
+
 p
 {
     font-family: 'Roboto Mono', monospace;
+}
+
+button
+{
+    font-family: 'Share Tech Mono', monospace;
 }
