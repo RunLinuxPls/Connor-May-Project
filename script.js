@@ -3,7 +3,8 @@
 import { SeventySentences } from "./SentencesbyCristianPopescu.js"
 import { shuffleArray } from "./Fisher-Yates_shuffle.js"
 
-(function loadTextSnippetsFromJSON() {
+(function loadTextSnippetsFromJSON()
+{
     const poemArray = SeventySentences.body,
         cardWrapper = document.querySelector("#cardWrapper")
     poemArray.forEach((each) => { cardWrapper.appendChild(document.createElement("p")).appendChild(document.createTextNode(each)) })
@@ -14,7 +15,9 @@ let shuffledElementsArray = shuffleArray([...document.querySelectorAll("#cardWra
 let currentIndex = 0
 document.querySelectorAll("#cardWrapper p").forEach((each) => { each.style.display = "none" }); // Hide all the cards
 shuffledElementsArray[currentIndex].style.display = "grid"; // Display the first card
-document.querySelector("#nextCard").onclick = () => {
+
+document.querySelector("#nextCard").onclick = () =>
+{
     if (currentIndex < shuffledElementsArray.length - 1) {
         shuffledElementsArray[currentIndex].style.display = "none"
         currentIndex++
@@ -26,7 +29,9 @@ document.querySelector("#nextCard").onclick = () => {
         shuffledElementsArray[currentIndex].style.display = "grid"
     }
 }
-document.querySelector("#previousCard").onclick = () => {
+
+document.querySelector("#previousCard").onclick = () =>
+{
     if (currentIndex > 0) {
         shuffledElementsArray[currentIndex].style.display = "none"
         currentIndex--
