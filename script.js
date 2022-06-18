@@ -10,7 +10,6 @@ import { shuffleArray } from "./Fisher-Yates_shuffle.js"
     poemArray.forEach((each) => { cardWrapper.appendChild(document.createElement("p")).appendChild(document.createTextNode(each)) })
     document.querySelectorAll("#cardWrapper p").forEach((each) => { each.className = "sentenceCard" })
 })()
-
 let shuffledElementsArray = shuffleArray([...document.querySelectorAll("#cardWrapper p")]) // Init static nodeList, shuffle, init array
 let currentIndex = 0
 document.querySelectorAll("#cardWrapper p").forEach((each) => { each.style.display = "none" }); // Hide all the cards
